@@ -1,0 +1,1 @@
+Get-ChildItem -Path . -Include *.ts,*.tsx -Recurse | Select FullName >> files.txt

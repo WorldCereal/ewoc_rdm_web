@@ -1,0 +1,19 @@
+{
+  "plugins": ["recharts"],
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-env": {
+          "useBuiltIns": "entry"
+        },
+        "styled-jsx": {
+          "plugins": [
+            "styled-jsx-plugin-postcss"
+          ]
+        }        
+      },
+      "@babel/preset-typescript"
+    ]
+  ]
+}
